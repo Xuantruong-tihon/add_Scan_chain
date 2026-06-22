@@ -1,10 +1,11 @@
 # Cấu trúc thư mục
+```
 spf_extractor_tool/
 ├── README.md                     		# Hướng dẫn sử dụng
 ├── extract_spf_chains.py         		# File script Python ở trên
 ├── dwc_e16mp_pma_x4_ns_scan_pg.spf  	# Tệp dữ liệu mẫu đầu vào (Cắt lấy khoảng 20-30 dòng mẫu)
 └── add_scan_chains.tcl           		# Thư mục chứa kết quả mẫu để đối chiếu
-
+```
 # SPF Scan Chain Extractor Tool
 
 ## 1. Giới thiệu tổng quan
