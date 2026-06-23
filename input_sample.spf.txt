@@ -1,0 +1,58 @@
+ScanStructures {
+    ScanChain "chain scan cr 0" {
+        ScanLength 81;
+        ScanIn "scan_cr_in[0]";
+        ScanOut "scan_cr_out[0]";
+        ScanEnable "scan shift";
+        ScanMasterClock "scan_cr_clk";
+    }
+
+    ScanChain "chain_scan_cr_1" {
+        ScanLength 81;
+        ScanIn "scan_cr_in[1]";
+        ScanOut "scan_cr_out[1]";
+        ScanEnable "scan shift";
+        ScanMasterClock "scan_cr_clk";
+    }
+
+    ScanChain "chain scan cr 2" {
+        ScanLength 81;
+        ScanIn "scan_cr_in[2]";
+        ScanOut "scan_cr_out [2]";
+        ScanEnable "scan_shift";
+        ScanMasterClock "scan_cr_clk";
+    }
+
+    ScanChain "chain_scan_cr_3" {
+        ScanLength 81;
+        ScanIn "scan_cr_in[3]";
+        ScanOut "scan_cr_out[3]";
+        ScanEnable "scan_shift";
+        ScanMasterClock "scan_cr_clk";
+    }
+
+    # Dòng này cố tình lặp lại cấu trúc chain 3 để test tính năng chống trùng lặp
+    ScanChain "chain_scan_cr_3" {
+        ScanLength 81;
+        ScanIn "scan_cr_in[3]";
+        ScanOut "scan_cr_out[3]";
+        ScanEnable "scan_shift";
+        ScanMasterClock "scan_cr_clk";
+    }
+
+    ScanChain "chain_scan_cr_4" {
+        ScanLength 81;
+        ScanIn "scan_cr_in[4]";
+        ScanOut "scan_cr_out [4]";
+        ScanEnable "scan_shift";
+        ScanMasterClock "scan_cr_clk";
+    }
+
+    ScanChain "chain_scan_cr_5" {
+        ScanLength 81;
+        ScanIn "scan_cr_in[5]";
+        ScanOut "scan_cr_out [5]";
+        ScanEnable "scan_shift";
+        ScanMasterClock "scan cr_clk";
+    }
+}

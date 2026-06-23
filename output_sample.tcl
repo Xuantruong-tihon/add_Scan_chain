@@ -1,0 +1,6 @@
+add_scan_chain chain scan cr 0 scan_cr_in[0] scan_cr_out[0]
+add_scan_chain chain_scan_cr_1 scan_cr_in[1] scan_cr_out[1]
+add_scan_chain chain scan cr 2 scan_cr_in[2] scan_cr_out [2]
+add_scan_chain chain_scan_cr_3 scan_cr_in[3] scan_cr_out[3]
+add_scan_chain chain_scan_cr_4 scan_cr_in[4] scan_cr_out [4]
+add_scan_chain chain_scan_cr_5 scan_cr_in[5] scan_cr_out [5]
